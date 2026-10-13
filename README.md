@@ -12,6 +12,10 @@ Created by **SSK-BLUM**.
   <img src="screenshots/desktop-night.png" width="620" alt="Night race on desktop with headlight and dashboard">
 </p>
 
+## App Live
+
+**[▶ Open the live app](https://soorajacontec.github.io/roadrush/)**
+
 ## Features
 
 - **Retro pseudo-3D engine**: road drawn line by line in chunky pixels, with rolling hills, curves, banded grass and rumble strips
@@ -49,20 +53,17 @@ python3 -m http.server 8080
 # then open http://localhost:8080
 ```
 
-## Publish on GitHub Pages
+## App Installation
 
-1. Create a new repository on GitHub, for example `road-rush`.
-2. Upload the contents of this folder, or push it:
+1. Open Terminal.
+2. Download the contents of this folder, or push it:
    ```bash
-   git remote add origin https://github.com/<your-username>/road-rush.git
+   git remote add origin https://github.com/soorajacontec/road-rush.git
    git branch -M main
    git push -u origin main
    ```
-3. In the repository go to **Settings → Pages**. Under **Build and deployment**, choose **Deploy from a branch**, select `main` and `/ (root)`, then save.
-4. After a minute the game is live at `https://<your-username>.github.io/road-rush/`.
-5. Open that link on your phone and add it to the home screen. iPhone: Share → Add to Home Screen. Android: the **Install app** button on the menu, or the browser menu.
 
-The empty `.nojekyll` file tells GitHub Pages to serve the files as they are.
+Note :-  Open that link on your phone and add it to the home screen. iPhone: Share → Add to Home Screen. Android: the **Install app** button on the menu, or the browser menu.
 
 ## Music
 
